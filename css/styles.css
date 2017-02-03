@@ -1,0 +1,42 @@
+/** COLORES
+
+#e3f2fd blue lighten-5
+#bbdefb blue lighten-4
+#90caf9 blue lighten-3
+#64b5f6 blue lighten-2
+#42a5f5 blue lighten-1
+#2196f3 blue
+#1e88e5 blue darken-1
+#1976d2 blue darken-2
+#1565c0 blue darken-3
+#0d47a1 blue darken-4
+#82b1ff blue accent-1
+#448aff blue accent-2
+#2979ff blue accent-3
+#2962ff blue accent-4
+
+**/
+
+@font-face {
+    font-family: 'Material Icons'; 
+    src:url("../fonts/material-icons.woff2") format('woff2');
+}
+
+h1, h2, h3, h4, h5,h6 {
+    color: #2196f3;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal; 
+    -webkit-font-feature-settings: 'liga';
+}
+
+.parallax-container {
+    height: 300px;
+}
+
+.pagination li.active {
+    background-color: #0d47a1;
+}

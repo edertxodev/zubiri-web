@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="appZubiri">
+  <head>
+    <title>IES Zubiri-Manteo BHI</title>
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <!-- El iniciador de nuestra app -->
+    <script src="angular/app.js"></script>
+    <!-- MaterializeCSS -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  </head>
+  <body ng-controller="indexController">
+    <div class="row">
+      <div ng-include="'templates/nav.html'"></div>
+    </div>
+    <div class="row">
+      <div ng-include="'templates/nav-movil.html'"></div>
+    </div>
+    <div class="row">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="img/zubiri1.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div ng-include="'templates/agurra.html'"></div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h3>{{hasiera.albisteak}}</h3>
+        <p class="flow-text">Zuretzako azken albisteak</p>
+      </div>
+    </div>
+    <div class="row">
+      <div ng-include="'templates/albisteak.html'"></div>
+    </div>
+    <div class="row">
+      <div ng-include="'templates/paginator.html'"></div>
+    </div>
+    <div class="row">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="img/zubiri2.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div ng-include="'templates/footer.html'"></div>
+    </div>
+    
+    <!--jQuery / materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
